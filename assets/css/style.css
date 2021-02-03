@@ -1,0 +1,1010 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    color: #595959;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+p {
+    color: #6a6c72;
+}
+
+a {
+    color: #0597AD;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.form-control {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border-color: #e0e2e5;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #525252;
+}
+
+.table {
+    color: #828282;
+}
+
+.table td,
+.table th {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #cdd4db;
+}
+
+.table thead tr {
+    background-color: rgba(0,0,0,.075);
+    color: #707070;
+}
+
+.table thead th {
+    font-weight: 700;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #0597ad;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #037080;
+}
+
+.btn-danger {
+    background-color: #f36b7f;
+    border-color: #f36b7f;
+}
+
+.btn-danger:hover {
+    background-color: #e44f65;
+    border-color: #e44f65;
+}
+
+.btn-success {
+    background-color: #00BE51;
+    border-color: #00BE51;
+}
+
+.btn-success:hover {
+    background-color: #3b9a7c;
+    border-color: #3b9a7c;
+}
+
+.btn-secondary {
+    background-color: #848889;
+    border-color: #848889;
+}
+
+/********** Header CSS ***********/
+.navbar_nav .nav_btn {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff !important;
+    padding: 6px 20px !important;
+    margin-left: 20px;
+}
+
+.navbar_nav .icon_btn {
+    background: #fff;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 4px;
+    margin: 0 5px;
+    color: #0c2833 !important;
+}
+
+.nav_logo {
+    padding: 0;
+}
+
+.nav_logo img {
+    width: 250px;
+}
+
+.navbar_nav {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar_top {
+    background-color: #0c2833;
+    padding: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.arrow_icon {
+    width: 26px;
+}
+
+/********** Header CSS ***********/
+
+/********** Top Section CSS ***********/
+.top_section {
+    background-color: #0597ad;
+    height: 90vh;
+    background-image: url(../img/large-bg.png);
+    background-size: auto;
+    position: relative;
+    background-position: 138% 60%;
+}
+
+.top_section:before {
+    content: '';
+    background-color: #064b5599;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.top_area {
+    padding-top: 6rem;
+    position: relative;
+    z-index: 99;
+}
+
+.radio_section {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.radio_section .form-check {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.radio_section .form-check-label {
+    color: #fff;
+    font-size: 18px;
+}
+
+.top_search {
+    display: table;
+    padding: 7rem 8rem 0 8rem;
+    width: 100%;
+
+}
+
+.nav_dropdown {
+    width: 15%;
+    float: left;
+    background: #fff;
+    height: 65px;
+    padding: 5px 0;
+}
+
+.nav_dropdown .navbar-nav {
+    width: 100%;
+    border-right: 2px solid #c5c5c5;
+}
+
+.nav_dropdown .nav-link {
+    padding: 0.2rem 1rem;
+    color: #525252;
+}
+
+.nav_dropdown .dropdown-menu label {
+    margin-bottom: 0;
+}
+
+.nav_dropdown .dropdown-menu .dropdown-item {
+    padding: 0.25rem 1rem;
+    color: #525252;
+}
+
+.nav_dropdown .dropdown-menu {
+    border-radius: 0;
+    margin-top: 0.8rem;
+    position: relative;
+}
+
+.nav_dropdown .dropdown-menu:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+}
+
+.drop_type {
+    width: 85%;
+    float: left;
+}
+
+.search_area {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.top_search p {
+    display: block;
+    color: #fff;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.search_area input.search-control {
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #929292;
+    height: 65px;
+    padding: 0 10px;
+    border-radius: 0px;
+    outline: none;
+}
+
+.search_area button {
+    background-color: #e3e3e3;
+    border-radius: 0;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding: 0;
+    height: 65px;
+    width: 65px;
+}
+
+.search_area button img {
+    width: 20px;
+    position: relative;
+    top: -2px;
+}
+
+.top_section_head {
+    width: 90%;
+    margin: auto
+}
+
+.top_section_head h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    text-align: center;
+    line-height: 54px;
+}
+
+/********** Top Section CSS ***********/
+/********** Footer CSS ***********/
+footer {
+    background-color: #0c2833;
+    padding: 4rem 0;
+}
+
+.footer_logo img {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.footer_logo p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_contacts {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_contacts li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0.4rem;
+}
+
+.footer_social {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_social li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0.4rem;
+}
+
+.footer_social li img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+/********** Footer CSS ***********/
+
+
+/********** Services CSS ***********/
+.service_section {
+    height: auto;
+    background: url(../img/small-bg.png);
+    background-size: auto;
+}
+
+.service_section .top_search {
+    padding: 1rem 5rem 0 5rem;
+}
+
+.service_section .top_area {
+    padding: 6rem 5rem;
+}
+
+.serv_det_card {
+    box-shadow: 0px 3px 6px #00000029;
+    position: sticky;
+    top: 1rem;
+}
+
+.serv_det_card p {
+    font-size: 14px;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+}
+
+.serv_det_card p em {
+    font-size: 5px;
+    color: #fff;
+    background-color: #0597ad;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.serv_det_card strong {
+    float: right;
+}
+
+.serv_det_card h5 {
+    background: #0597ad;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.serv_det_card ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 1rem;
+    border-top: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.breadcrumb_section {
+    background: #e9ecef;
+}
+
+.breadcrumb_section .breadcrumb {
+    padding: 0.4rem 1rem;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.cont_sidebar {
+    background-color: #d3f1ff;
+    border-radius: 0px;
+    padding: 0.4rem;
+    margin-bottom: 2rem;
+    display: table;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 92%;
+}
+
+.cont_sidebar h3 {
+    font-size: 18px;
+    background: #0597ad;
+    color: #fff;
+    text-align: center;
+    padding: 0.6rem 0;
+    border-radius: 0px;
+    font-weight: 400;
+    margin-bottom: 0;
+    width: 20%;
+    float: left;
+}
+
+.cont_sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    float: left;
+    margin: 0;
+    margin-top: 0.3rem;
+    margin-left: 2%;
+}
+
+.cont_sidebar ul li {
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.cont_sidebar ul li img {
+    width: 24px;
+    padding: 1px;
+    margin-right: 8px;
+}
+
+.cont_sidebar ul li a {
+    color: #111;
+    font-size: 18px;
+}
+
+.cont_sidebar ul li a:hover {
+    color: #0597ad;
+}
+
+.card_sidebar h4 {
+    font-size: 20px;
+    color: #545454;
+}
+
+.card_sidebar p {
+    color: #545454;
+    margin-bottom: 8px;
+}
+
+.card_sidebar button {
+    margin-bottom: 2rem;
+}
+
+.card_sidebar h6 {
+    color: #545454;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.show_data p {
+    margin: 0;
+    line-height: 38px;
+}
+
+.pagi_nation .pagination {
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+.pagi_nation .page-link {
+    padding: .5rem .4rem;
+    color: #212529;
+    border: none;
+}
+
+.doc_list .card-header {
+    padding: .2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0 solid #0597ad;
+    background-color: #0597ad;
+}
+
+.doc_list .card-header h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: .375rem .75rem;
+    color: #fff;
+}
+
+.doc_list .card-header .btn-link {
+    color: #fff;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.cta_service {
+    padding: 3rem 0;
+}
+
+.cta_service h3 {
+    font-size: 22px;
+}
+
+.detail_doc_list h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 2rem;
+    background: #0597ad;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+.add_doc_list h2 {
+    font-size: 22px;
+}
+
+.add_doc_list iframe {
+    width: 100%;
+    height: 200px;
+}
+
+.dir_profile h1 {
+    margin-bottom: 2rem;
+}
+
+.dir_profile h2 {
+    font-size: 22px;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.trademark_doc_list h2 {
+    font-size: 18px;
+    border-bottom: 0px solid #0597ad;
+    margin-top: 1rem;
+    background-color: #0597ad;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 2px;
+    box-shadow: 0 7px 30px -10px rgb(133, 153, 162, .5);
+}
+
+.trademark_doc_list {
+    margin-bottom: 2rem;
+}
+
+.trademark_doc_list p {
+    margin-bottom: 6px;
+}
+.trademark_doc_list img {
+    width: 100%;
+}
+.show_entry {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    line-height: 38px;
+}
+
+.search_form {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.search_form .fa-search {
+    position: absolute;
+    font-size: 14px;
+    right: 10px;
+    top: 12px;
+    color: #656565;
+}
+
+.company_filter {
+    margin-top: 1rem;
+}
+
+.company_filter h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #595959;
+}
+
+.company_filter h4 {
+    margin-top: 1rem;
+    font-size: 18px;
+    background-color: #fff;
+    color: #595959;
+    padding: 0;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.filter_val {
+    list-style: none;
+    padding: 0;
+    height: 225px;
+    overflow-y: scroll;
+    margin-bottom: 3rem;
+    width: 85%;
+}
+
+.filter_val li a {
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+.filter_val li a span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 280px;
+    display: inline-flex;
+}
+
+/* width */
+.filter_val::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.filter_val::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.filter_val::-webkit-scrollbar-thumb {
+    background: #0597ad;
+}
+
+/* Handle on hover */
+.filter_val::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.cart_total ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    margin-bottom: 0.6rem;
+    border-bottom: 2px solid #0597ad;
+}
+
+.cart_total ul.total {
+    border-bottom: none;
+    color: #0597ad;
+    font-weight: 600;
+}
+
+.tab_head {
+    background: #D0F6FC;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0px;
+    margin-top: 2rem;
+}
+
+.tab_head p {
+    margin: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #818181;
+    font-size: 18px;
+}
+
+.content_section {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.sub_head h1 {
+    font-weight: 400;
+}
+
+/********** Services CSS ***********/
+
+/********** Ipad Media Query CSS ***********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .navbar_nav .nav-link {
+        margin-top: 1rem;
+        text-align: center;
+        width: 30%;
+    }
+
+    .top_section {
+        height: 50vh;
+    }
+
+    .top_area {
+        padding: 6rem 0;
+    }
+
+    .search_area {
+        width: 100%;
+    }
+
+    .top_section_head {
+        width: 100%;
+    }
+
+    .top_section_head h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-top: 2rem;
+    }
+
+    footer {
+        padding: 3rem 0;
+    }
+}
+
+/********** Ipad Media Query CSS ***********/
+
+/********** Mobile Query CSS ***********/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar_nav .nav-link {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .navbar_nav .icon_btn {
+        margin: 5px auto;
+    }
+
+    .top_section {
+        height: auto;
+    }
+
+    .top_area {
+        padding: 1rem 0;
+    }
+
+    .search_area {
+        width: 100%;
+    }
+
+    .top_section_head {
+        width: 100%;
+    }
+
+    .top_section_head h2 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 1rem;
+    }
+
+    footer {
+        padding: 3rem 0;
+    }
+
+    .service_section .top_area {
+        padding: 1rem 0;
+    }
+
+    .sub_head h1 {
+        font-size: 1.5rem;
+    }
+
+    .doc_list .card-body {
+        padding: 0;
+    }
+
+    .pagi_nation .pagination {
+        justify-content: center;
+    }
+
+    .show_data {
+        text-align: center;
+    }
+
+    .cta_service {
+        text-align: center;
+    }
+
+    .cta_service .btn-block {
+        width: auto;
+        margin: auto;
+    }
+
+    .service_section .top_search {
+        padding: 1rem 0 0 0;
+    }
+
+    .drop_type {
+        width: 65%;
+    }
+
+    .nav_dropdown {
+        width: 35%;
+        height: 40px;
+    }
+
+    .nav_dropdown .nav-link {
+        padding: 0.2rem 0.4rem;
+    }
+
+    .btn {
+        margin-bottom: 0.2rem;
+    }
+
+    .cont_sidebar h3 {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .cont_sidebar ul li a {
+        font-size: 14px;
+    }
+
+    .cont_sidebar ul {
+        width: 100%;
+        display: block;
+    }
+
+    .nav_logo img {
+        width: 175px;
+    }
+
+    .table td,
+    .table th {
+        padding: 0.4rem;
+        font-size: 14px;
+    }
+
+    .detail_doc_list h4 {
+        font-size: 18px;
+        padding: 0.4rem;
+    }
+
+    .top_search {
+        padding: 1rem 0 0 0;
+    }
+}
+
+/********** Mobile Query CSS ***********/
+.ui_table {
+    padding: 3rem 0;
+}
+
+/********** Expandable CSS *************/
+.collapse_area thead {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.collapse_area .table thead th {
+    color: #37913a;
+}
+
+.collapse_area .table {
+    border: 1px solid #e5e5e5;
+}
+
+/********** Expandable CSS *************/
+
+/********* Description CSS **********/
+.description_sec {
+    padding: 4rem 0;
+}
+
+.descp_area h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/********* Description CSS **********/
+
+
+
+
+/*************** Modal CSS ***************/
+.social_login {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social_log {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.social_log li {
+    margin: 0 6px;
+}
+
+.social_log li img {
+    width: 40px;
+}
+
+.social_login p {
+    color: #8c8c8c;
+}
+
+.signin_modal .nav-tabs .nav-link {
+    background-color: #e5e5e5;
+    border-radius: 0;
+    font-weight: 600;
+    border-color: #fff0;
+    padding: 1.2rem 0;
+    font-size: 18px;
+}
+
+.signin_modal .nav-tabs .nav-link.active {
+    background-color: #fff;
+}
+
+.signin_modal .nav-tabs .nav-item {
+    width: 50%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.signin_modal .nav-tabs {
+    border-bottom: none;
+}
+
+.signin_tab {
+    padding: 0 3rem;
+}
+
+.signin_tab input.form-control {
+    font-size: 12px;
+    color: #8c8c8c;
+    height: 40px;
+}
+
+.signin_link {
+    text-align: center;
+    color: #8c8c8c;
+    margin-top: 0.5rem;
+}
+
+.forgot_link {
+    text-align: right;
+    font-size: 12px;
+}
+
+.modal {
+    background: #263238cc;
+}
+
+.signin_dialog .modal-header {
+    text-align: center;
+    display: block;
+}
+
+.signin_dialog .modal-header img {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+
+.signin_dialog .modal-header p {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 1rem;
+}
+
+.signin_dialog .modal-header p a {
+    color: #fff;
+}
+
+.signin_dialog .modal-content {
+    background-color: transparent;
+    border: none;
+}
+
+.signin_dialog .modal-body {
+    background-color: #fff;
+    padding: 0 0 1rem 0;
+}
+
+/*************** Modal CSS ***************/
